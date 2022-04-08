@@ -67,7 +67,9 @@ public class DungeonTimer {
                     EnumChatFormatting.YELLOW + "Puzzle Fails:";
             String dungeonTimers = EnumChatFormatting.GRAY + "" + witherDoors + "\n" +
                     EnumChatFormatting.DARK_RED + Utils.getTimeBetween(dungeonStartTime, bloodOpenTime) + "\n" +
+                    EnumChatFormatting.DARK_RED + Utils.getTimeBetween(dungeonStartTime, bloodOpenTime) - 25 + "s off optimal" 
                     EnumChatFormatting.RED + Utils.getTimeBetween(dungeonStartTime, watcherClearTime) + "\n" +
+                    EnumChatFormatting.RED + Utils.getTimeBetween(dungeonStartTime, watcherClearTime) - 110 + "s off optimal"
                     EnumChatFormatting.BLUE + Utils.getTimeBetween(dungeonStartTime, bossClearTime) + "\n" +
                     EnumChatFormatting.YELLOW + dungeonDeaths + "\n" +
                     EnumChatFormatting.YELLOW + puzzleFails;
