@@ -52,7 +52,9 @@ Grindpack is a bundle of addons to DSM that are centered on combat.
 - Reparty command
 - Highlight Slayer Bosses
 - Highlight Arachne
-
+### Current Grindpack features
+- Dungeons optimal runtime comparison.
+- Bosses till RNG estimation.
 
 ## Commands
 - /dhelp - Returns this message in-game.
