@@ -3,7 +3,7 @@ QOL changes that enhances your Hypixel Skyblock experience. Created to add featu
 
 Discord Server: https://discord.gg/QsEkNQS
 ## Doggo's Grind Pack
-Grindpack is a bundle of addons to DSM that are centered on grinding.
+Grindpack is a bundle of addons to DSM that are centered on combat.
 ## Incompatibilities
 - Old Animations <2.6.4 - Frequent crashes
 - Old Animations 2.6.4
