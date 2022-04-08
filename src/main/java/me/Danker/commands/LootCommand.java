@@ -100,6 +100,7 @@ public class LootCommand extends CommandBase {
 																EnumChatFormatting.DARK_PURPLE + "    Overfluxes: " + LootTracker.wolfFluxesSession + "\n" +
 																EnumChatFormatting.AQUA + "    Time Since RNG: " + timeBetween + "\n" +
 																EnumChatFormatting.AQUA + "    Bosses Since RNG: " + bossesBetween + "\n" +
+										   					 	EnumChatFormatting.GREEN + "Estimated Bosses Till RNG (assuming only T4s): " + 213 - bossesBetween + "\n" +
 																EnumChatFormatting.AQUA + EnumChatFormatting.BOLD + " -------------------"));
 					return;
 				}
@@ -133,6 +134,7 @@ public class LootCommand extends CommandBase {
 															EnumChatFormatting.DARK_PURPLE + "    Overfluxes: " + LootTracker.wolfFluxes + "\n" +
 															EnumChatFormatting.AQUA + "    Time Since RNG: " + timeBetween + "\n" +
 															EnumChatFormatting.AQUA + "    Bosses Since RNG: " + bossesBetween + "\n" +
+									    						EnumChatFormatting.GREEN + "Estimated Bosses Till RNG (assuming only T4s): " + 213 - bossesBetween + "\n" +
 															EnumChatFormatting.AQUA + EnumChatFormatting.BOLD + " -------------------"));
 				break;
 			case "spider":
@@ -166,6 +168,7 @@ public class LootCommand extends CommandBase {
 																EnumChatFormatting.GOLD + "    Digested Mosquitos: " + LootTracker.spiderMosquitosSession + "\n" +
 																EnumChatFormatting.AQUA + "    Time Since RNG: " + timeBetween + "\n" +
 																EnumChatFormatting.AQUA + "    Bosses Since RNG: " + bossesBetween + "\n" +
+										    						EnumChatFormatting.GREEN + "Estimated Bosses Till RNG (assuming only T4s): " + 250 - bossesBetween + "\n" +
 																EnumChatFormatting.RED + EnumChatFormatting.BOLD + " -------------------"));
 					return;
 				}
@@ -199,6 +202,7 @@ public class LootCommand extends CommandBase {
 															EnumChatFormatting.GOLD + "    Digested Mosquitos: " + LootTracker.spiderMosquitos + "\n" +
 															EnumChatFormatting.AQUA + "    Time Since RNG: " + timeBetween + "\n" +
 															EnumChatFormatting.AQUA + "    Bosses Since RNG: " + bossesBetween + "\n" +
+									    						EnumChatFormatting.GREEN + "Estimated Bosses Till RNG (assuming only T4s): " + 250 - bossesBetween + "\n" +
 															EnumChatFormatting.RED + EnumChatFormatting.BOLD + " -------------------"));
 				break;
 			case "zombie":
@@ -235,6 +239,8 @@ public class LootCommand extends CommandBase {
 																EnumChatFormatting.RED + "    Warden Hearts: " + LootTracker.zombieWardenHeartsSession + "\n" +
 																EnumChatFormatting.AQUA + "    Time Since RNG: " + timeBetween + "\n" +
 																EnumChatFormatting.AQUA + "    Bosses Since RNG: " + bossesBetween + "\n" +
+										   						EnumChatFormatting.GREEN + "Estimated Bosses Till RNG (assuming only T4s): " + 264 - bossesBetween + "\n" +
+										    						EnumChatFormatting.GREEN + "Estimated Bosses Till RNG (assuming only T5s): " + 205 - bossesBetween + "\n" +
 																EnumChatFormatting.GREEN + EnumChatFormatting.BOLD + " -------------------"));
 					return;
 				}
@@ -271,6 +277,8 @@ public class LootCommand extends CommandBase {
 															EnumChatFormatting.RED + "    Warden Hearts: " + LootTracker.zombieWardenHearts + "\n" +
 															EnumChatFormatting.AQUA + "    Time Since RNG: " + timeBetween + "\n" +
 															EnumChatFormatting.AQUA + "    Bosses Since RNG: " + bossesBetween + "\n" +
+									    						EnumChatFormatting.GREEN + "Estimated Bosses Till RNG (assuming only T4s): " + 264 - bossesBetween + "\n" +
+										    					EnumChatFormatting.GREEN + "Estimated Bosses Till RNG (assuming only T5s): " + 205 - bossesBetween + "\n" +
 															EnumChatFormatting.GREEN + EnumChatFormatting.BOLD + " -------------------"));
 				break;
 			case "fishing":
@@ -296,6 +304,7 @@ public class LootCommand extends CommandBase {
 																		EnumChatFormatting.GOLD + "    Yetis: " + nf.format(LootTracker.yetisSession) + "\n" +
 																		EnumChatFormatting.AQUA + "    Time Since Yeti: " + timeBetween + "\n" +
 																		EnumChatFormatting.AQUA + "    Creatures Since Yeti: " + bossesBetween + "\n" +
+												    						EnumChatFormatting.GREEN + "Estimated Fishes Till Yeti: " + 228 - bossesBetween + "\n" +
 																		EnumChatFormatting.AQUA + EnumChatFormatting.BOLD + " -------------------"));
 							return;
 						}
@@ -319,6 +328,7 @@ public class LootCommand extends CommandBase {
 																	EnumChatFormatting.GOLD + "    Yetis: " + nf.format(LootTracker.yetis) + "\n" +
 																	EnumChatFormatting.AQUA + "    Time Since Yeti: " + timeBetween + "\n" +
 																	EnumChatFormatting.AQUA + "    Creatures Since Yeti: " + bossesBetween + "\n" +
+											    						EnumChatFormatting.GREEN + "Estimated Creatures Till Yeti: " + 228 - bossesBetween + "\n" +
 																	EnumChatFormatting.AQUA + EnumChatFormatting.BOLD + " -------------------"));
 						return;
 					} else if (arg1[1].equalsIgnoreCase("festival")) {
@@ -397,6 +407,7 @@ public class LootCommand extends CommandBase {
 																EnumChatFormatting.GOLD + "    Sea Emperors: " + nf.format(LootTracker.seaEmperorsSession) + "\n" +
 																EnumChatFormatting.AQUA + "    Time Since Sea Emperor: " + timeBetween + "\n" +
 																EnumChatFormatting.AQUA + "    Sea Creatures Since Sea Emperor: " + bossesBetween + "\n" +
+										    						EnumChatFormatting.GREEN + "Estimated Fishes Till Emperor: " + 500 - bossesBetween + "\n" +
 																EnumChatFormatting.DARK_AQUA + EnumChatFormatting.BOLD + " -------------------"));
 					return;
 				}
@@ -433,6 +444,7 @@ public class LootCommand extends CommandBase {
 															EnumChatFormatting.GOLD + "    Sea Emperors: " + nf.format(LootTracker.seaEmperors) + "\n" +
 															EnumChatFormatting.AQUA + "    Time Since Sea Emperor: " + timeBetween + "\n" +
 															EnumChatFormatting.AQUA + "    Sea Creatures Since Sea Emperor: " + bossesBetween + "\n" +
+									    						EnumChatFormatting.GREEN + "Estimated Fishes Till Emperor: " + 500 - bossesBetween + "\n" +
 															EnumChatFormatting.DARK_AQUA + EnumChatFormatting.BOLD + " -------------------"));
 
 				break;
