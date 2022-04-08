@@ -4,6 +4,7 @@ QOL changes that enhances your Hypixel Skyblock experience. Created to add featu
 Discord Server: https://discord.gg/QsEkNQS
 ## Doggo's Grind Pack
 Grindpack is a bundle of addons to DSM that are centered on combat.
+### Note: You must manually compile the download into a .jar file for now. Expect this to be updated soon.
 ## Incompatibilities
 - Old Animations <2.6.4 - Frequent crashes
 - Old Animations 2.6.4
@@ -111,3 +112,4 @@ Software | License
 [SkyblockAddons](https://github.com/BiscuitDevelopment/SkyblockAddons/) | [MIT License](https://github.com/BiscuitDevelopment/SkyblockAddons/blob/master/LICENSE)
 [Zealot Counter](https://github.com/symt/zealot-counter/) | [Apache License](https://github.com/symt/zealot-counter/blob/master/LICENSE.md)
 [NotEnoughUpdates](https://github.com/Moulberry/NotEnoughUpdates/) | [Creative Commons Public License](https://github.com/Moulberry/NotEnoughUpdates/blob/master/LICENSE)
+ 
